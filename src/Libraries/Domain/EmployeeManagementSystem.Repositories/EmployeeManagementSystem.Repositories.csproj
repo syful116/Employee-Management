@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\EmployeeManagementSystem.Infrastructure\EmployeeManagementSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\EmployeeManagementSystem.Services.Model\EmployeeManagementSystem.Services.Model.csproj" />
+    <ProjectReference Include="..\EmployeeManagementSystem.Model\EmployeeManagementSystem.Model.csproj" />
+    <ProjectReference Include="..\EmployeeManagementSystem.Shared\EmployeeManagementSystem.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
